@@ -1,0 +1,6 @@
+[
+  {"id": 1, "product": "ノートPC", "amount": 125000, "category": "パソコン"},
+  {"id": 2, "product": "マウス", "amount": 1800, "category": "アクセサリ"},
+  {"id": 3, "product": "ディスプレイ", "amount": 32000, "category": "パソコン"},
+  {"id": 4, "product": "キーボード", "amount": 2900, "category": "アクセサリ"}
+]

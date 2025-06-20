@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "product": "ノートPC",
+    "amount": 125000,
+    "category": "パソコン"
+  },
+  {
+    "id": 3,
+    "product": "ディスプレイ",
+    "amount": 32000,
+    "category": "パソコン"
+  }
+]
