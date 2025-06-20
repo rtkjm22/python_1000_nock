@@ -1,0 +1,32 @@
+[
+  {
+    "name": "なお",
+    "age": 23,
+    "score": 81,
+    "gender": "female",
+    "job": {
+      "title": "デザイナー",
+      "department": "UI/UX"
+    }
+  },
+  {
+    "name": "たける",
+    "age": 35,
+    "score": 91,
+    "gender": "male",
+    "job": {
+      "title": "エンジニア",
+      "department": "AI"
+    }
+  },
+  {
+    "name": "みき",
+    "age": 22,
+    "score": 97,
+    "gender": "female",
+    "job": {
+      "title": "エンジニア",
+      "department": "AI"
+    }
+  }
+]
