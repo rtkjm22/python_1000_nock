@@ -36,25 +36,12 @@ def load_users_from_csv(path: str) -> List[User]:
 def top_scorer(users: List[User]) -> User:
     return max(users, key=lambda u: u["score"])
 
-if __name__ == '__main__':
-  users = load_users_from_csv('src/data/users.csv')
-  print("--- 読み込み結果 ---")
-  for user in users:
-    print(user)
-  
-  print("--- トップスコア ---")
-  print(top_scorer(users))
+print("piyopiyo")
+if __name__ == "__main__":
+    users = load_users_from_csv("src/data/users.csv")
+    print("--- 読み込み結果 ---")
+    for user in users:
+        print(user)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    print("--- トップスコア ---")
+    print(top_scorer(users))
