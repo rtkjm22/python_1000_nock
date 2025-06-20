@@ -28,3 +28,7 @@ def get_names(users: List[User]) -> List[str]:
 
 def is_young(user: User) -> bool:
     return user["age"] <= 25
+
+
+def get_young_user_names(users: List[User]) -> List[str]:
+    return [u["name"] for u in users if is_young(u)]
