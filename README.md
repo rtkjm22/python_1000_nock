@@ -14,3 +14,15 @@ ChatGPT に出力させる。
 例えば、配列処理を行う際に JS では高階関数（`numbers.filter(x => x % 2 === 0).map(x => x * x)`）の使用が好まれている。
 対して、Python ではリスト内包表記（`squares = [x * x for x in numbers if x % 2 == 0]`）がよく利用されている。
 こういったことから、pythonic な書き方が体に馴染むまで行う。
+
+## 実行方法
+
+単純に.pyファイルを実行する場合
+```
+poetry run python3 src/xxx.py 
+```
+
+テスト実行
+```
+poetry run test
+```
